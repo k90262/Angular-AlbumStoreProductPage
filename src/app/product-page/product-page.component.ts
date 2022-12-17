@@ -10,6 +10,10 @@ export class ProductPageComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log("init");
   }
 
+  showConsoleLog() {
+    console.log("click");
+  }
 }
